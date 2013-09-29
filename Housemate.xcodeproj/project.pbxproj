@@ -15,7 +15,6 @@
 		86B12D7B17F68859001922F6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86B12D7917F68859001922F6 /* MainMenu.xib */; };
 		86B12D8417F68A14001922F6 /* AGHWidgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B12D8217F68A14001922F6 /* AGHWidgetViewController.m */; };
 		86B12D8517F68A14001922F6 /* AGHWidgetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86B12D8317F68A14001922F6 /* AGHWidgetViewController.xib */; };
-		86B12DD317F6BA2E001922F6 /* ladybug.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86B12DD217F6BA2E001922F6 /* ladybug.jpg */; };
 		86B12DD717F74463001922F6 /* AGHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B12DD517F74463001922F6 /* AGHHomeViewController.m */; };
 		86B12DD817F74463001922F6 /* AGHHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86B12DD617F74463001922F6 /* AGHHomeViewController.xib */; };
 		86B12DDB17F75559001922F6 /* kitchen_button_big.png in Resources */ = {isa = PBXBuildFile; fileRef = 86B12DDA17F75559001922F6 /* kitchen_button_big.png */; };
@@ -42,6 +41,7 @@
 		86B12E0D17F7FD3F001922F6 /* AGHMediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B12E0B17F7FD3F001922F6 /* AGHMediaViewController.m */; };
 		86B12E0E17F7FD3F001922F6 /* AGHMediaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86B12E0C17F7FD3F001922F6 /* AGHMediaViewController.xib */; };
 		86B12E1017F7FDA5001922F6 /* media_screen_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 86B12E0F17F7FDA5001922F6 /* media_screen_background.png */; };
+		86B12E1217F802B5001922F6 /* home_screen_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 86B12E1117F802B5001922F6 /* home_screen_background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,7 +61,6 @@
 		86B12D8117F68A14001922F6 /* AGHWidgetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGHWidgetViewController.h; sourceTree = "<group>"; };
 		86B12D8217F68A14001922F6 /* AGHWidgetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGHWidgetViewController.m; sourceTree = "<group>"; };
 		86B12D8317F68A14001922F6 /* AGHWidgetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AGHWidgetViewController.xib; sourceTree = "<group>"; };
-		86B12DD217F6BA2E001922F6 /* ladybug.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ladybug.jpg; sourceTree = "<group>"; };
 		86B12DD417F74463001922F6 /* AGHHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGHHomeViewController.h; sourceTree = "<group>"; };
 		86B12DD517F74463001922F6 /* AGHHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGHHomeViewController.m; sourceTree = "<group>"; };
 		86B12DD617F74463001922F6 /* AGHHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AGHHomeViewController.xib; sourceTree = "<group>"; };
@@ -94,6 +93,7 @@
 		86B12E0B17F7FD3F001922F6 /* AGHMediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGHMediaViewController.m; sourceTree = "<group>"; };
 		86B12E0C17F7FD3F001922F6 /* AGHMediaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AGHMediaViewController.xib; sourceTree = "<group>"; };
 		86B12E0F17F7FDA5001922F6 /* media_screen_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = media_screen_background.png; sourceTree = "<group>"; };
+		86B12E1117F802B5001922F6 /* home_screen_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_screen_background.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,7 +148,6 @@
 			isa = PBXGroup;
 			children = (
 				86B12DD917F754EC001922F6 /* UI Graphics */,
-				86B12DD217F6BA2E001922F6 /* ladybug.jpg */,
 				86B12D7617F68859001922F6 /* AGHAppDelegate.h */,
 				86B12D7717F68859001922F6 /* AGHAppDelegate.m */,
 				86B12D7917F68859001922F6 /* MainMenu.xib */,
@@ -183,6 +182,7 @@
 		86B12DD917F754EC001922F6 /* UI Graphics */ = {
 			isa = PBXGroup;
 			children = (
+				86B12E1117F802B5001922F6 /* home_screen_background.png */,
 				86B12E0F17F7FDA5001922F6 /* media_screen_background.png */,
 				86B12E0617F7F7CC001922F6 /* recipe_card_1.png */,
 				86B12E0017F7F0B5001922F6 /* recipe_widget_2.png */,
@@ -283,7 +283,6 @@
 				86B12D7517F68859001922F6 /* Credits.rtf in Resources */,
 				86B12D7B17F68859001922F6 /* MainMenu.xib in Resources */,
 				86B12D8517F68A14001922F6 /* AGHWidgetViewController.xib in Resources */,
-				86B12DD317F6BA2E001922F6 /* ladybug.jpg in Resources */,
 				86B12DD817F74463001922F6 /* AGHHomeViewController.xib in Resources */,
 				86B12DDB17F75559001922F6 /* kitchen_button_big.png in Resources */,
 				86B12DE217F75646001922F6 /* housemate_title_graphic.png in Resources */,
@@ -304,6 +303,7 @@
 				86B12E0917F7FA75001922F6 /* recipe_widget_drawer_button_selected.png in Resources */,
 				86B12E0E17F7FD3F001922F6 /* AGHMediaViewController.xib in Resources */,
 				86B12E1017F7FDA5001922F6 /* media_screen_background.png in Resources */,
+				86B12E1217F802B5001922F6 /* home_screen_background.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
