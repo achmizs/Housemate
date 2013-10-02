@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86AB329F17FBFEF100672553 /* AGHMusicWidgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AB329D17FBFEF100672553 /* AGHMusicWidgetViewController.m */; };
+		86AB32A017FBFEF100672553 /* AGHMusicWidgetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86AB329E17FBFEF100672553 /* AGHMusicWidgetViewController.xib */; };
+		86AB32A317FC00DB00672553 /* home_screen_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86AB32A217FC00DB00672553 /* home_screen_background.jpg */; };
+		86AB32A817FC02EA00672553 /* kitchen_screen_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86AB32A717FC02EA00672553 /* kitchen_screen_background.jpg */; };
+		86AB32B217FC070900672553 /* recipe_widget_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AB32AE17FC070900672553 /* recipe_widget_1.png */; };
+		86AB32B317FC070900672553 /* recipe_card_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AB32AF17FC070900672553 /* recipe_card_1.png */; };
+		86AB32B917FCBBE900672553 /* media_screen_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AB32B817FCBBE900672553 /* media_screen_background.png */; };
+		86AB32BD17FCBC0900672553 /* music_widget_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AB32BA17FCBC0900672553 /* music_widget_2.png */; };
+		86AB32BE17FCBC0900672553 /* music_widget_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AB32BB17FCBC0900672553 /* music_widget_1.png */; };
+		86AB32BF17FCBC0900672553 /* music_widget_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AB32BC17FCBC0900672553 /* music_widget_3.png */; };
+		86AB32C117FCBCE900672553 /* recipe_widget_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AB32C017FCBCE900672553 /* recipe_widget_2.png */; };
+		86AB32C317FCBE4E00672553 /* recipe_widget_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AB32C217FCBE4E00672553 /* recipe_widget_3.png */; };
 		86B12D6517F68859001922F6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B12D6417F68859001922F6 /* Cocoa.framework */; };
 		86B12D6F17F68859001922F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86B12D6D17F68859001922F6 /* InfoPlist.strings */; };
 		86B12D7117F68859001922F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B12D7017F68859001922F6 /* main.m */; };
@@ -17,34 +29,30 @@
 		86B12D8517F68A14001922F6 /* AGHWidgetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86B12D8317F68A14001922F6 /* AGHWidgetViewController.xib */; };
 		86B12DD717F74463001922F6 /* AGHHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B12DD517F74463001922F6 /* AGHHomeViewController.m */; };
 		86B12DD817F74463001922F6 /* AGHHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86B12DD617F74463001922F6 /* AGHHomeViewController.xib */; };
-		86B12DDB17F75559001922F6 /* kitchen_button_big.png in Resources */ = {isa = PBXBuildFile; fileRef = 86B12DDA17F75559001922F6 /* kitchen_button_big.png */; };
-		86B12DE217F75646001922F6 /* housemate_title_graphic.png in Resources */ = {isa = PBXBuildFile; fileRef = 86B12DDC17F75646001922F6 /* housemate_title_graphic.png */; };
-		86B12DE317F75646001922F6 /* home_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 86B12DDD17F75646001922F6 /* home_icon.png */; };
-		86B12DE417F75646001922F6 /* settings_button_big.png in Resources */ = {isa = PBXBuildFile; fileRef = 86B12DDE17F75646001922F6 /* settings_button_big.png */; };
-		86B12DE517F75646001922F6 /* media_button_big.png in Resources */ = {isa = PBXBuildFile; fileRef = 86B12DDF17F75646001922F6 /* media_button_big.png */; };
-		86B12DE617F75646001922F6 /* bath_button_big.png in Resources */ = {isa = PBXBuildFile; fileRef = 86B12DE017F75646001922F6 /* bath_button_big.png */; };
-		86B12DE717F75646001922F6 /* garage_button_big.png in Resources */ = {isa = PBXBuildFile; fileRef = 86B12DE117F75646001922F6 /* garage_button_big.png */; };
 		86B12DEB17F763A3001922F6 /* AGHKitchenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B12DE917F763A3001922F6 /* AGHKitchenViewController.m */; };
 		86B12DEC17F763A3001922F6 /* AGHKitchenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86B12DEA17F763A3001922F6 /* AGHKitchenViewController.xib */; };
-		86B12DEE17F763E6001922F6 /* widget_drawer_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 86B12DED17F763E6001922F6 /* widget_drawer_1.png */; };
-		86B12DF017F7650E001922F6 /* kitchen_top_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 86B12DEF17F7650E001922F6 /* kitchen_top_image.png */; };
-		86B12DF217F76583001922F6 /* home_corner_panel.png in Resources */ = {isa = PBXBuildFile; fileRef = 86B12DF117F76583001922F6 /* home_corner_panel.png */; };
-		86B12DF417F76F66001922F6 /* recipe_widget_drawer_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 86B12DF317F76F66001922F6 /* recipe_widget_drawer_button.png */; };
 		86B12DF917F76FE9001922F6 /* AGHRecipeWidgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B12DF717F76FE9001922F6 /* AGHRecipeWidgetViewController.m */; };
 		86B12DFA17F76FE9001922F6 /* AGHRecipeWidgetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86B12DF817F76FE9001922F6 /* AGHRecipeWidgetViewController.xib */; };
-		86B12DFC17F77025001922F6 /* recipe_widget_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 86B12DFB17F77025001922F6 /* recipe_widget_1.png */; };
 		86B12DFF17F78754001922F6 /* AGHWidgetBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B12DFE17F78754001922F6 /* AGHWidgetBackgroundView.m */; };
-		86B12E0117F7F0B5001922F6 /* recipe_widget_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 86B12E0017F7F0B5001922F6 /* recipe_widget_2.png */; };
 		86B12E0517F7F201001922F6 /* AGHShapedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B12E0417F7F201001922F6 /* AGHShapedButton.m */; };
-		86B12E0717F7F7CC001922F6 /* recipe_card_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 86B12E0617F7F7CC001922F6 /* recipe_card_1.png */; };
-		86B12E0917F7FA75001922F6 /* recipe_widget_drawer_button_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 86B12E0817F7FA75001922F6 /* recipe_widget_drawer_button_selected.png */; };
 		86B12E0D17F7FD3F001922F6 /* AGHMediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B12E0B17F7FD3F001922F6 /* AGHMediaViewController.m */; };
 		86B12E0E17F7FD3F001922F6 /* AGHMediaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86B12E0C17F7FD3F001922F6 /* AGHMediaViewController.xib */; };
-		86B12E1017F7FDA5001922F6 /* media_screen_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 86B12E0F17F7FDA5001922F6 /* media_screen_background.png */; };
-		86B12E1217F802B5001922F6 /* home_screen_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 86B12E1117F802B5001922F6 /* home_screen_background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		86AB329C17FBFEF100672553 /* AGHMusicWidgetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGHMusicWidgetViewController.h; sourceTree = "<group>"; };
+		86AB329D17FBFEF100672553 /* AGHMusicWidgetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGHMusicWidgetViewController.m; sourceTree = "<group>"; };
+		86AB329E17FBFEF100672553 /* AGHMusicWidgetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AGHMusicWidgetViewController.xib; sourceTree = "<group>"; };
+		86AB32A217FC00DB00672553 /* home_screen_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home_screen_background.jpg; sourceTree = "<group>"; };
+		86AB32A717FC02EA00672553 /* kitchen_screen_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kitchen_screen_background.jpg; sourceTree = "<group>"; };
+		86AB32AE17FC070900672553 /* recipe_widget_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_widget_1.png; sourceTree = "<group>"; };
+		86AB32AF17FC070900672553 /* recipe_card_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_card_1.png; sourceTree = "<group>"; };
+		86AB32B817FCBBE900672553 /* media_screen_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = media_screen_background.png; sourceTree = "<group>"; };
+		86AB32BA17FCBC0900672553 /* music_widget_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music_widget_2.png; sourceTree = "<group>"; };
+		86AB32BB17FCBC0900672553 /* music_widget_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music_widget_1.png; sourceTree = "<group>"; };
+		86AB32BC17FCBC0900672553 /* music_widget_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music_widget_3.png; sourceTree = "<group>"; };
+		86AB32C017FCBCE900672553 /* recipe_widget_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_widget_2.png; sourceTree = "<group>"; };
+		86AB32C217FCBE4E00672553 /* recipe_widget_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_widget_3.png; sourceTree = "<group>"; };
 		86B12D6117F68859001922F6 /* Housemate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Housemate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86B12D6417F68859001922F6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		86B12D6717F68859001922F6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -64,36 +72,19 @@
 		86B12DD417F74463001922F6 /* AGHHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGHHomeViewController.h; sourceTree = "<group>"; };
 		86B12DD517F74463001922F6 /* AGHHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGHHomeViewController.m; sourceTree = "<group>"; };
 		86B12DD617F74463001922F6 /* AGHHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AGHHomeViewController.xib; sourceTree = "<group>"; };
-		86B12DDA17F75559001922F6 /* kitchen_button_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kitchen_button_big.png; sourceTree = "<group>"; };
-		86B12DDC17F75646001922F6 /* housemate_title_graphic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = housemate_title_graphic.png; sourceTree = "<group>"; };
-		86B12DDD17F75646001922F6 /* home_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_icon.png; sourceTree = "<group>"; };
-		86B12DDE17F75646001922F6 /* settings_button_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settings_button_big.png; sourceTree = "<group>"; };
-		86B12DDF17F75646001922F6 /* media_button_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = media_button_big.png; sourceTree = "<group>"; };
-		86B12DE017F75646001922F6 /* bath_button_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bath_button_big.png; sourceTree = "<group>"; };
-		86B12DE117F75646001922F6 /* garage_button_big.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = garage_button_big.png; sourceTree = "<group>"; };
 		86B12DE817F763A3001922F6 /* AGHKitchenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGHKitchenViewController.h; sourceTree = "<group>"; };
 		86B12DE917F763A3001922F6 /* AGHKitchenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGHKitchenViewController.m; sourceTree = "<group>"; };
 		86B12DEA17F763A3001922F6 /* AGHKitchenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AGHKitchenViewController.xib; sourceTree = "<group>"; };
-		86B12DED17F763E6001922F6 /* widget_drawer_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = widget_drawer_1.png; sourceTree = "<group>"; };
-		86B12DEF17F7650E001922F6 /* kitchen_top_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kitchen_top_image.png; sourceTree = "<group>"; };
-		86B12DF117F76583001922F6 /* home_corner_panel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_corner_panel.png; sourceTree = "<group>"; };
-		86B12DF317F76F66001922F6 /* recipe_widget_drawer_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_widget_drawer_button.png; sourceTree = "<group>"; };
 		86B12DF617F76FE9001922F6 /* AGHRecipeWidgetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGHRecipeWidgetViewController.h; sourceTree = "<group>"; };
 		86B12DF717F76FE9001922F6 /* AGHRecipeWidgetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGHRecipeWidgetViewController.m; sourceTree = "<group>"; };
 		86B12DF817F76FE9001922F6 /* AGHRecipeWidgetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AGHRecipeWidgetViewController.xib; sourceTree = "<group>"; };
-		86B12DFB17F77025001922F6 /* recipe_widget_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_widget_1.png; sourceTree = "<group>"; };
 		86B12DFD17F78754001922F6 /* AGHWidgetBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGHWidgetBackgroundView.h; sourceTree = "<group>"; };
 		86B12DFE17F78754001922F6 /* AGHWidgetBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGHWidgetBackgroundView.m; sourceTree = "<group>"; };
-		86B12E0017F7F0B5001922F6 /* recipe_widget_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_widget_2.png; sourceTree = "<group>"; };
 		86B12E0317F7F201001922F6 /* AGHShapedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGHShapedButton.h; sourceTree = "<group>"; };
 		86B12E0417F7F201001922F6 /* AGHShapedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGHShapedButton.m; sourceTree = "<group>"; };
-		86B12E0617F7F7CC001922F6 /* recipe_card_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_card_1.png; sourceTree = "<group>"; };
-		86B12E0817F7FA75001922F6 /* recipe_widget_drawer_button_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_widget_drawer_button_selected.png; sourceTree = "<group>"; };
 		86B12E0A17F7FD3F001922F6 /* AGHMediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGHMediaViewController.h; sourceTree = "<group>"; };
 		86B12E0B17F7FD3F001922F6 /* AGHMediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGHMediaViewController.m; sourceTree = "<group>"; };
 		86B12E0C17F7FD3F001922F6 /* AGHMediaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AGHMediaViewController.xib; sourceTree = "<group>"; };
-		86B12E0F17F7FDA5001922F6 /* media_screen_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = media_screen_background.png; sourceTree = "<group>"; };
-		86B12E1117F802B5001922F6 /* home_screen_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_screen_background.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +99,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		86AB32A117FC00CA00672553 /* Home Screen */ = {
+			isa = PBXGroup;
+			children = (
+				86AB32A217FC00DB00672553 /* home_screen_background.jpg */,
+				86AB32A417FC028C00672553 /* Home Screen Buttons */,
+			);
+			name = "Home Screen";
+			sourceTree = "<group>";
+		};
+		86AB32A417FC028C00672553 /* Home Screen Buttons */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Home Screen Buttons";
+			sourceTree = "<group>";
+		};
+		86AB32A517FC029800672553 /* Media Screen */ = {
+			isa = PBXGroup;
+			children = (
+				86AB32B817FCBBE900672553 /* media_screen_background.png */,
+			);
+			name = "Media Screen";
+			sourceTree = "<group>";
+		};
+		86AB32A617FC02A200672553 /* Kitchen Screen */ = {
+			isa = PBXGroup;
+			children = (
+				86AB32A717FC02EA00672553 /* kitchen_screen_background.jpg */,
+			);
+			name = "Kitchen Screen";
+			sourceTree = "<group>";
+		};
+		86AB32A917FC040800672553 /* Widget Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				86AB32AA17FC041B00672553 /* Recipe Widget Graphics */,
+				86AB32B517FC0B2F00672553 /* Music Widget Graphics */,
+			);
+			name = "Widget Graphics";
+			sourceTree = "<group>";
+		};
+		86AB32AA17FC041B00672553 /* Recipe Widget Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				86AB32C017FCBCE900672553 /* recipe_widget_2.png */,
+				86AB32AE17FC070900672553 /* recipe_widget_1.png */,
+				86AB32C217FCBE4E00672553 /* recipe_widget_3.png */,
+				86AB32AF17FC070900672553 /* recipe_card_1.png */,
+			);
+			name = "Recipe Widget Graphics";
+			sourceTree = "<group>";
+		};
+		86AB32B517FC0B2F00672553 /* Music Widget Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				86AB32BA17FCBC0900672553 /* music_widget_2.png */,
+				86AB32BB17FCBC0900672553 /* music_widget_1.png */,
+				86AB32BC17FCBC0900672553 /* music_widget_3.png */,
+			);
+			name = "Music Widget Graphics";
+			sourceTree = "<group>";
+		};
 		86B12D5817F68859001922F6 = {
 			isa = PBXGroup;
 			children = (
@@ -182,23 +235,10 @@
 		86B12DD917F754EC001922F6 /* UI Graphics */ = {
 			isa = PBXGroup;
 			children = (
-				86B12E1117F802B5001922F6 /* home_screen_background.png */,
-				86B12E0F17F7FDA5001922F6 /* media_screen_background.png */,
-				86B12E0617F7F7CC001922F6 /* recipe_card_1.png */,
-				86B12E0017F7F0B5001922F6 /* recipe_widget_2.png */,
-				86B12DFB17F77025001922F6 /* recipe_widget_1.png */,
-				86B12DF317F76F66001922F6 /* recipe_widget_drawer_button.png */,
-				86B12E0817F7FA75001922F6 /* recipe_widget_drawer_button_selected.png */,
-				86B12DF117F76583001922F6 /* home_corner_panel.png */,
-				86B12DEF17F7650E001922F6 /* kitchen_top_image.png */,
-				86B12DED17F763E6001922F6 /* widget_drawer_1.png */,
-				86B12DDC17F75646001922F6 /* housemate_title_graphic.png */,
-				86B12DDD17F75646001922F6 /* home_icon.png */,
-				86B12DDE17F75646001922F6 /* settings_button_big.png */,
-				86B12DDF17F75646001922F6 /* media_button_big.png */,
-				86B12DE017F75646001922F6 /* bath_button_big.png */,
-				86B12DE117F75646001922F6 /* garage_button_big.png */,
-				86B12DDA17F75559001922F6 /* kitchen_button_big.png */,
+				86AB32A117FC00CA00672553 /* Home Screen */,
+				86AB32A517FC029800672553 /* Media Screen */,
+				86AB32A617FC02A200672553 /* Kitchen Screen */,
+				86AB32A917FC040800672553 /* Widget Graphics */,
 			);
 			name = "UI Graphics";
 			sourceTree = "<group>";
@@ -212,6 +252,9 @@
 				86B12DF617F76FE9001922F6 /* AGHRecipeWidgetViewController.h */,
 				86B12DF717F76FE9001922F6 /* AGHRecipeWidgetViewController.m */,
 				86B12DF817F76FE9001922F6 /* AGHRecipeWidgetViewController.xib */,
+				86AB329C17FBFEF100672553 /* AGHMusicWidgetViewController.h */,
+				86AB329D17FBFEF100672553 /* AGHMusicWidgetViewController.m */,
+				86AB329E17FBFEF100672553 /* AGHMusicWidgetViewController.xib */,
 			);
 			name = "Widget View Controllers";
 			sourceTree = "<group>";
@@ -284,26 +327,20 @@
 				86B12D7B17F68859001922F6 /* MainMenu.xib in Resources */,
 				86B12D8517F68A14001922F6 /* AGHWidgetViewController.xib in Resources */,
 				86B12DD817F74463001922F6 /* AGHHomeViewController.xib in Resources */,
-				86B12DDB17F75559001922F6 /* kitchen_button_big.png in Resources */,
-				86B12DE217F75646001922F6 /* housemate_title_graphic.png in Resources */,
-				86B12DE317F75646001922F6 /* home_icon.png in Resources */,
-				86B12DE417F75646001922F6 /* settings_button_big.png in Resources */,
-				86B12DE517F75646001922F6 /* media_button_big.png in Resources */,
-				86B12DE617F75646001922F6 /* bath_button_big.png in Resources */,
-				86B12DE717F75646001922F6 /* garage_button_big.png in Resources */,
 				86B12DEC17F763A3001922F6 /* AGHKitchenViewController.xib in Resources */,
-				86B12DEE17F763E6001922F6 /* widget_drawer_1.png in Resources */,
-				86B12DF017F7650E001922F6 /* kitchen_top_image.png in Resources */,
-				86B12DF217F76583001922F6 /* home_corner_panel.png in Resources */,
-				86B12DF417F76F66001922F6 /* recipe_widget_drawer_button.png in Resources */,
 				86B12DFA17F76FE9001922F6 /* AGHRecipeWidgetViewController.xib in Resources */,
-				86B12DFC17F77025001922F6 /* recipe_widget_1.png in Resources */,
-				86B12E0117F7F0B5001922F6 /* recipe_widget_2.png in Resources */,
-				86B12E0717F7F7CC001922F6 /* recipe_card_1.png in Resources */,
-				86B12E0917F7FA75001922F6 /* recipe_widget_drawer_button_selected.png in Resources */,
 				86B12E0E17F7FD3F001922F6 /* AGHMediaViewController.xib in Resources */,
-				86B12E1017F7FDA5001922F6 /* media_screen_background.png in Resources */,
-				86B12E1217F802B5001922F6 /* home_screen_background.png in Resources */,
+				86AB32A017FBFEF100672553 /* AGHMusicWidgetViewController.xib in Resources */,
+				86AB32A317FC00DB00672553 /* home_screen_background.jpg in Resources */,
+				86AB32A817FC02EA00672553 /* kitchen_screen_background.jpg in Resources */,
+				86AB32B217FC070900672553 /* recipe_widget_1.png in Resources */,
+				86AB32B317FC070900672553 /* recipe_card_1.png in Resources */,
+				86AB32B917FCBBE900672553 /* media_screen_background.png in Resources */,
+				86AB32BD17FCBC0900672553 /* music_widget_2.png in Resources */,
+				86AB32BE17FCBC0900672553 /* music_widget_1.png in Resources */,
+				86AB32BF17FCBC0900672553 /* music_widget_3.png in Resources */,
+				86AB32C117FCBCE900672553 /* recipe_widget_2.png in Resources */,
+				86AB32C317FCBE4E00672553 /* recipe_widget_3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +360,7 @@
 				86B12DFF17F78754001922F6 /* AGHWidgetBackgroundView.m in Sources */,
 				86B12E0517F7F201001922F6 /* AGHShapedButton.m in Sources */,
 				86B12E0D17F7FD3F001922F6 /* AGHMediaViewController.m in Sources */,
+				86AB329F17FBFEF100672553 /* AGHMusicWidgetViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +460,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Housemate/Housemate-Prefix.pch";
 				INFOPLIST_FILE = "Housemate/Housemate-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -434,6 +473,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Housemate/Housemate-Prefix.pch";
 				INFOPLIST_FILE = "Housemate/Housemate-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
