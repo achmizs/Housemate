@@ -19,6 +19,13 @@
 		86AB32BF17FCBC0900672553 /* music_widget_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AB32BC17FCBC0900672553 /* music_widget_3.png */; };
 		86AB32C117FCBCE900672553 /* recipe_widget_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AB32C017FCBCE900672553 /* recipe_widget_2.png */; };
 		86AB32C317FCBE4E00672553 /* recipe_widget_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AB32C217FCBE4E00672553 /* recipe_widget_3.png */; };
+		86AB32CC17FCBF2C00672553 /* pizza1.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AB32C517FCBF2C00672553 /* pizza1.png */; };
+		86AB32CD17FCBF2C00672553 /* pizza2.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AB32C617FCBF2C00672553 /* pizza2.png */; };
+		86AB32CE17FCBF2C00672553 /* pizza3.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AB32C717FCBF2C00672553 /* pizza3.png */; };
+		86AB32CF17FCBF2C00672553 /* pizza4.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AB32C817FCBF2C00672553 /* pizza4.png */; };
+		86AB32D017FCBF2C00672553 /* pizza5.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AB32C917FCBF2C00672553 /* pizza5.png */; };
+		86AB32D117FCBF2C00672553 /* pizza6.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AB32CA17FCBF2C00672553 /* pizza6.png */; };
+		86AB32D217FCBF2C00672553 /* pizza7.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AB32CB17FCBF2C00672553 /* pizza7.png */; };
 		86B12D6517F68859001922F6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B12D6417F68859001922F6 /* Cocoa.framework */; };
 		86B12D6F17F68859001922F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86B12D6D17F68859001922F6 /* InfoPlist.strings */; };
 		86B12D7117F68859001922F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B12D7017F68859001922F6 /* main.m */; };
@@ -53,6 +60,13 @@
 		86AB32BC17FCBC0900672553 /* music_widget_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music_widget_3.png; sourceTree = "<group>"; };
 		86AB32C017FCBCE900672553 /* recipe_widget_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_widget_2.png; sourceTree = "<group>"; };
 		86AB32C217FCBE4E00672553 /* recipe_widget_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_widget_3.png; sourceTree = "<group>"; };
+		86AB32C517FCBF2C00672553 /* pizza1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pizza1.png; sourceTree = "<group>"; };
+		86AB32C617FCBF2C00672553 /* pizza2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pizza2.png; sourceTree = "<group>"; };
+		86AB32C717FCBF2C00672553 /* pizza3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pizza3.png; sourceTree = "<group>"; };
+		86AB32C817FCBF2C00672553 /* pizza4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pizza4.png; sourceTree = "<group>"; };
+		86AB32C917FCBF2C00672553 /* pizza5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pizza5.png; sourceTree = "<group>"; };
+		86AB32CA17FCBF2C00672553 /* pizza6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pizza6.png; sourceTree = "<group>"; };
+		86AB32CB17FCBF2C00672553 /* pizza7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pizza7.png; sourceTree = "<group>"; };
 		86B12D6117F68859001922F6 /* Housemate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Housemate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86B12D6417F68859001922F6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		86B12D6717F68859001922F6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -147,6 +161,7 @@
 				86AB32AE17FC070900672553 /* recipe_widget_1.png */,
 				86AB32C217FCBE4E00672553 /* recipe_widget_3.png */,
 				86AB32AF17FC070900672553 /* recipe_card_1.png */,
+				86AB32C417FCBF1800672553 /* Pizza Thumbnails */,
 			);
 			name = "Recipe Widget Graphics";
 			sourceTree = "<group>";
@@ -159,6 +174,20 @@
 				86AB32BC17FCBC0900672553 /* music_widget_3.png */,
 			);
 			name = "Music Widget Graphics";
+			sourceTree = "<group>";
+		};
+		86AB32C417FCBF1800672553 /* Pizza Thumbnails */ = {
+			isa = PBXGroup;
+			children = (
+				86AB32C517FCBF2C00672553 /* pizza1.png */,
+				86AB32C617FCBF2C00672553 /* pizza2.png */,
+				86AB32C717FCBF2C00672553 /* pizza3.png */,
+				86AB32C817FCBF2C00672553 /* pizza4.png */,
+				86AB32C917FCBF2C00672553 /* pizza5.png */,
+				86AB32CA17FCBF2C00672553 /* pizza6.png */,
+				86AB32CB17FCBF2C00672553 /* pizza7.png */,
+			);
+			name = "Pizza Thumbnails";
 			sourceTree = "<group>";
 		};
 		86B12D5817F68859001922F6 = {
@@ -341,6 +370,13 @@
 				86AB32BF17FCBC0900672553 /* music_widget_3.png in Resources */,
 				86AB32C117FCBCE900672553 /* recipe_widget_2.png in Resources */,
 				86AB32C317FCBE4E00672553 /* recipe_widget_3.png in Resources */,
+				86AB32CC17FCBF2C00672553 /* pizza1.png in Resources */,
+				86AB32CD17FCBF2C00672553 /* pizza2.png in Resources */,
+				86AB32CE17FCBF2C00672553 /* pizza3.png in Resources */,
+				86AB32CF17FCBF2C00672553 /* pizza4.png in Resources */,
+				86AB32D017FCBF2C00672553 /* pizza5.png in Resources */,
+				86AB32D117FCBF2C00672553 /* pizza6.png in Resources */,
+				86AB32D217FCBF2C00672553 /* pizza7.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
