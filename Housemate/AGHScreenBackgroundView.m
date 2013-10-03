@@ -7,6 +7,7 @@
 //
 
 #import "AGHScreenBackgroundView.h"
+#import "AGHWidgetBackgroundView.h"
 
 @implementation AGHScreenBackgroundView
 
@@ -23,6 +24,18 @@
 - (void)drawRect:(NSRect)dirtyRect
 {
     // Drawing code here.
+}
+
+-(void)sortSubviewsUsingFunction:(NSComparisonResult (*)(__strong id, __strong id, void *))compare context:(void *)context
+{
+	[super sortSubviewsUsingFunction:compare context:context];
+	for(NSView* subview in self.subviews)
+	{
+		if([subview respondsToSelector:@selector(setTag:)])
+		{
+			[((AGHWidgetBackgroundView*)subview) setTag:1];
+		}
+	}
 }
 
 -(void)mouseUp:(NSEvent *)theEvent

@@ -27,6 +27,7 @@
 		86AB32D117FCBF2C00672553 /* pizza6.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AB32CA17FCBF2C00672553 /* pizza6.png */; };
 		86AB32D217FCBF2C00672553 /* pizza7.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AB32CB17FCBF2C00672553 /* pizza7.png */; };
 		86AB32D517FD26D800672553 /* AGHScreenBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AB32D417FD26D700672553 /* AGHScreenBackgroundView.m */; };
+		86AB32DA17FD4EB700672553 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AB32D917FD4EB700672553 /* AVFoundation.framework */; };
 		86B12D6517F68859001922F6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B12D6417F68859001922F6 /* Cocoa.framework */; };
 		86B12D6F17F68859001922F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86B12D6D17F68859001922F6 /* InfoPlist.strings */; };
 		86B12D7117F68859001922F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B12D7017F68859001922F6 /* main.m */; };
@@ -45,6 +46,7 @@
 		86B12E0517F7F201001922F6 /* AGHShapedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B12E0417F7F201001922F6 /* AGHShapedButton.m */; };
 		86B12E0D17F7FD3F001922F6 /* AGHMediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B12E0B17F7FD3F001922F6 /* AGHMediaViewController.m */; };
 		86B12E0E17F7FD3F001922F6 /* AGHMediaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 86B12E0C17F7FD3F001922F6 /* AGHMediaViewController.xib */; };
+		86FB267917FD53A900D3DF68 /* bad_romance.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 86FB267817FD53A900D3DF68 /* bad_romance.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +72,7 @@
 		86AB32CB17FCBF2C00672553 /* pizza7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pizza7.png; sourceTree = "<group>"; };
 		86AB32D317FD26D700672553 /* AGHScreenBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGHScreenBackgroundView.h; sourceTree = "<group>"; };
 		86AB32D417FD26D700672553 /* AGHScreenBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGHScreenBackgroundView.m; sourceTree = "<group>"; };
+		86AB32D917FD4EB700672553 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		86B12D6117F68859001922F6 /* Housemate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Housemate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86B12D6417F68859001922F6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		86B12D6717F68859001922F6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -102,6 +105,7 @@
 		86B12E0A17F7FD3F001922F6 /* AGHMediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGHMediaViewController.h; sourceTree = "<group>"; };
 		86B12E0B17F7FD3F001922F6 /* AGHMediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGHMediaViewController.m; sourceTree = "<group>"; };
 		86B12E0C17F7FD3F001922F6 /* AGHMediaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AGHMediaViewController.xib; sourceTree = "<group>"; };
+		86FB267817FD53A900D3DF68 /* bad_romance.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bad_romance.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86AB32DA17FD4EB700672553 /* AVFoundation.framework in Frameworks */,
 				86B12D6517F68859001922F6 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,9 +198,18 @@
 			name = "Pizza Thumbnails";
 			sourceTree = "<group>";
 		};
+		86AB32DB17FD4F1300672553 /* Sounds & Musics */ = {
+			isa = PBXGroup;
+			children = (
+				86FB267817FD53A900D3DF68 /* bad_romance.mp3 */,
+			);
+			name = "Sounds & Musics";
+			sourceTree = "<group>";
+		};
 		86B12D5817F68859001922F6 = {
 			isa = PBXGroup;
 			children = (
+				86AB32D917FD4EB700672553 /* AVFoundation.framework */,
 				86B12D6A17F68859001922F6 /* Housemate */,
 				86B12D6317F68859001922F6 /* Frameworks */,
 				86B12D6217F68859001922F6 /* Products */,
@@ -232,6 +246,7 @@
 		86B12D6A17F68859001922F6 /* Housemate */ = {
 			isa = PBXGroup;
 			children = (
+				86AB32DB17FD4F1300672553 /* Sounds & Musics */,
 				86B12DD917F754EC001922F6 /* UI Graphics */,
 				86B12D7617F68859001922F6 /* AGHAppDelegate.h */,
 				86B12D7717F68859001922F6 /* AGHAppDelegate.m */,
@@ -382,6 +397,7 @@
 				86AB32D017FCBF2C00672553 /* pizza5.png in Resources */,
 				86AB32D117FCBF2C00672553 /* pizza6.png in Resources */,
 				86AB32D217FCBF2C00672553 /* pizza7.png in Resources */,
+				86FB267917FD53A900D3DF68 /* bad_romance.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

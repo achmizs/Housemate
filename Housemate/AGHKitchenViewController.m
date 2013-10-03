@@ -47,7 +47,9 @@
 - (IBAction)recipeWidgetDrawerButtonPressed:(id)sender
 {
 	if(self.recipeWidgetViewController == nil)
+	{
 		self.recipeWidgetViewController = [[AGHRecipeWidgetViewController alloc] initWithNibName:@"AGHRecipeWidgetViewController" bundle:nil];
+	}
 	
 	[self.view addSubview:self.recipeWidgetViewController.view];
 	
@@ -57,10 +59,12 @@
 -(void)spawnMusicWidget
 {
 	NSLog(@"Spawning Music widget.");
-	self.musicWidgetViewController = [[AGHMusicWidgetViewController alloc] initWithNibName:@"AGHMusicWidgetViewController" bundle:nil];
+	if(self.musicWidgetViewController == nil)
+	{
+		self.musicWidgetViewController = [[AGHMusicWidgetViewController alloc] initWithNibName:@"AGHMusicWidgetViewController" bundle:nil];
+	}
 	
 	[self.view addSubview:self.musicWidgetViewController.view];
-
 }
 
 @end
