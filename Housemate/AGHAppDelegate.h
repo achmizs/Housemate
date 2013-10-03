@@ -20,4 +20,6 @@
 -(void)showMediaView;
 -(void)backToKitchen;
 
+-(void)spawnMusicWidgetInCurrentScreen;
+
 @end

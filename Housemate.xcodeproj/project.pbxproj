@@ -26,6 +26,7 @@
 		86AB32D017FCBF2C00672553 /* pizza5.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AB32C917FCBF2C00672553 /* pizza5.png */; };
 		86AB32D117FCBF2C00672553 /* pizza6.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AB32CA17FCBF2C00672553 /* pizza6.png */; };
 		86AB32D217FCBF2C00672553 /* pizza7.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AB32CB17FCBF2C00672553 /* pizza7.png */; };
+		86AB32D517FD26D800672553 /* AGHScreenBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AB32D417FD26D700672553 /* AGHScreenBackgroundView.m */; };
 		86B12D6517F68859001922F6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B12D6417F68859001922F6 /* Cocoa.framework */; };
 		86B12D6F17F68859001922F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86B12D6D17F68859001922F6 /* InfoPlist.strings */; };
 		86B12D7117F68859001922F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B12D7017F68859001922F6 /* main.m */; };
@@ -67,6 +68,8 @@
 		86AB32C917FCBF2C00672553 /* pizza5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pizza5.png; sourceTree = "<group>"; };
 		86AB32CA17FCBF2C00672553 /* pizza6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pizza6.png; sourceTree = "<group>"; };
 		86AB32CB17FCBF2C00672553 /* pizza7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pizza7.png; sourceTree = "<group>"; };
+		86AB32D317FD26D700672553 /* AGHScreenBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGHScreenBackgroundView.h; sourceTree = "<group>"; };
+		86AB32D417FD26D700672553 /* AGHScreenBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGHScreenBackgroundView.m; sourceTree = "<group>"; };
 		86B12D6117F68859001922F6 /* Housemate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Housemate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86B12D6417F68859001922F6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		86B12D6717F68859001922F6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -295,6 +298,8 @@
 				86B12DFE17F78754001922F6 /* AGHWidgetBackgroundView.m */,
 				86B12E0317F7F201001922F6 /* AGHShapedButton.h */,
 				86B12E0417F7F201001922F6 /* AGHShapedButton.m */,
+				86AB32D317FD26D700672553 /* AGHScreenBackgroundView.h */,
+				86AB32D417FD26D700672553 /* AGHScreenBackgroundView.m */,
 			);
 			name = "View Classes";
 			sourceTree = "<group>";
@@ -397,6 +402,7 @@
 				86B12E0517F7F201001922F6 /* AGHShapedButton.m in Sources */,
 				86B12E0D17F7FD3F001922F6 /* AGHMediaViewController.m in Sources */,
 				86AB329F17FBFEF100672553 /* AGHMusicWidgetViewController.m in Sources */,
+				86AB32D517FD26D800672553 /* AGHScreenBackgroundView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

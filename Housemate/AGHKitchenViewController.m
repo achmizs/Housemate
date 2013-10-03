@@ -8,10 +8,12 @@
 
 #import "AGHKitchenViewController.h"
 #import "AGHRecipeWidgetViewController.h"
+#import "AGHMusicWidgetViewController.h"
 
 @interface AGHKitchenViewController ()
 
 @property (nonatomic, strong) AGHRecipeWidgetViewController* recipeWidgetViewController;
+@property (nonatomic, strong) AGHMusicWidgetViewController* musicWidgetViewController;
 
 - (IBAction)homeButtonPressed:(id)sender;
 - (IBAction)mediaButtonPressed:(id)sender;
@@ -49,6 +51,16 @@
 	
 	[self.view addSubview:self.recipeWidgetViewController.view];
 	
-	[((NSButton*)sender) setImage:[NSImage imageNamed:@"recipe_widget_drawer_button_selected.png"]];
+//	[((NSButton*)sender) setImage:[NSImage imageNamed:@"recipe_widget_drawer_button_selected.png"]];
 }
+
+-(void)spawnMusicWidget
+{
+	NSLog(@"Spawning Music widget.");
+	self.musicWidgetViewController = [[AGHMusicWidgetViewController alloc] initWithNibName:@"AGHMusicWidgetViewController" bundle:nil];
+	
+	[self.view addSubview:self.musicWidgetViewController.view];
+
+}
+
 @end

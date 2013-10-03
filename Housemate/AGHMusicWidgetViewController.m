@@ -10,6 +10,10 @@
 
 @interface AGHMusicWidgetViewController ()
 
+@property (strong) IBOutlet AGHWidgetBackgroundView *musicCategoriesView;
+@property (strong) IBOutlet AGHWidgetBackgroundView *rockMusicView;
+@property (strong) IBOutlet AGHWidgetBackgroundView *collapsedWidgetView;
+
 @end
 
 @implementation AGHMusicWidgetViewController

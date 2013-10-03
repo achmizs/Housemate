@@ -72,4 +72,9 @@
 	[self.mediaViewController.view removeFromSuperview];
 }
 
+-(void)spawnMusicWidgetInCurrentScreen
+{
+	[self.kitchenViewController spawnMusicWidget];
+}
+
 @end

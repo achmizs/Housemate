@@ -19,4 +19,6 @@
 
 @property (nonatomic, weak) id <AGHKitchenViewControllerDelegate> delegate;
 
+-(void)spawnMusicWidget;
+
 @end

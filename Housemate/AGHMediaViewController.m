@@ -11,6 +11,7 @@
 @interface AGHMediaViewController ()
 
 -(IBAction)backToKitchenButtonPressed:(id)sender;
+- (IBAction)musicButtonPressed:(id)sender;
 
 @end
 
@@ -28,6 +29,12 @@
 
 -(IBAction)backToKitchenButtonPressed:(id)sender
 {
+	[self.delegate backToKitchen];
+}
+
+- (IBAction)musicButtonPressed:(id)sender
+{
+	[self.delegate spawnMusicWidgetInCurrentScreen];
 	[self.delegate backToKitchen];
 }
 

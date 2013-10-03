@@ -12,6 +12,8 @@
 
 -(void)backToKitchen;
 
+-(void)spawnMusicWidgetInCurrentScreen;
+
 @end
 
 @interface AGHMediaViewController : NSViewController
