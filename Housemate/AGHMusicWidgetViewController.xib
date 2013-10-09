@@ -45,7 +45,6 @@
 						<int key="NSvFlags">268</int>
 						<string key="NSFrame">{{427, 520}, {86, 92}}</string>
 						<reference key="NSSuperview" ref="1005"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="1003202955"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="NSEnabled">YES</bool>
@@ -74,7 +73,6 @@
 						<int key="NSvFlags">268</int>
 						<string key="NSFrame">{{568, 614}, {94, 86}}</string>
 						<reference key="NSSuperview" ref="1005"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="282131984"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="NSEnabled">YES</bool>
@@ -99,7 +97,6 @@
 						<int key="NSvFlags">268</int>
 						<string key="NSFrame">{{252, 293}, {112, 57}}</string>
 						<reference key="NSSuperview" ref="1005"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="NSEnabled">YES</bool>
@@ -132,7 +129,6 @@
 						</set>
 						<string key="NSFrame">{{0, -2}, {662, 710}}</string>
 						<reference key="NSSuperview" ref="1005"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="683649579"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="NSEnabled">YES</bool>
@@ -155,7 +151,6 @@
 				</array>
 				<string key="NSFrameSize">{662, 708}</string>
 				<reference key="NSSuperview"/>
-				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="382062330"/>
 				<string key="NSClassName">AGHWidgetBackgroundView</string>
 			</object>
@@ -168,7 +163,6 @@
 						<int key="NSvFlags">268</int>
 						<string key="NSFrame">{{177, 149}, {258, 56}}</string>
 						<reference key="NSSuperview" ref="651456997"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="NSEnabled">YES</bool>
@@ -193,7 +187,6 @@
 						<int key="NSvFlags">268</int>
 						<string key="NSFrame">{{423, 524}, {83, 88}}</string>
 						<reference key="NSSuperview" ref="651456997"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="286992422"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="NSEnabled">YES</bool>
@@ -218,7 +211,6 @@
 						<int key="NSvFlags">268</int>
 						<string key="NSFrame">{{568, 612}, {87, 90}}</string>
 						<reference key="NSSuperview" ref="651456997"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="458829848"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="NSEnabled">YES</bool>
@@ -251,7 +243,6 @@
 						</set>
 						<string key="NSFrameSize">{662, 708}</string>
 						<reference key="NSSuperview" ref="651456997"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="540880960"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="NSEnabled">YES</bool>
@@ -274,7 +265,6 @@
 				</array>
 				<string key="NSFrameSize">{662, 708}</string>
 				<reference key="NSSuperview"/>
-				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="343774489"/>
 				<string key="NSClassName">AGHWidgetBackgroundView</string>
 			</object>
@@ -287,7 +277,6 @@
 						<int key="NSvFlags">268</int>
 						<string key="NSFrameSize">{143, 138}</string>
 						<reference key="NSSuperview" ref="453073433"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="39264851"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="NSEnabled">YES</bool>
@@ -312,7 +301,6 @@
 						<int key="NSvFlags">268</int>
 						<string key="NSFrame">{{386, 45}, {48, 48}}</string>
 						<reference key="NSSuperview" ref="453073433"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="NSEnabled">YES</bool>
@@ -345,7 +333,6 @@
 						</set>
 						<string key="NSFrame">{{0, -570}, {662, 708}}</string>
 						<reference key="NSSuperview" ref="453073433"/>
-						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="631607803"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<bool key="NSEnabled">YES</bool>
@@ -368,7 +355,6 @@
 				</array>
 				<string key="NSFrameSize">{461, 138}</string>
 				<reference key="NSSuperview"/>
-				<reference key="NSWindow"/>
 				<reference key="NSNextKeyView" ref="496952554"/>
 				<string key="NSClassName">AGHWidgetBackgroundView</string>
 			</object>
@@ -1698,111 +1684,7 @@
 			<nil key="sourceID"/>
 			<int key="maxID">190</int>
 		</object>
-		<object class="IBClassDescriber" key="IBDocument.Classes">
-			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
-				<object class="IBPartialClassDescription">
-					<string key="className">AGHMusicWidgetViewController</string>
-					<string key="superclassName">AGHWidgetViewController</string>
-					<dictionary class="NSMutableDictionary" key="actions">
-						<string key="badRomanceButtonPressed:">id</string>
-						<string key="closeButtonPressed:">id</string>
-						<string key="collapseButtonPressed:">id</string>
-						<string key="expandButtonPressed:">id</string>
-						<string key="playPauseButtonPressed:">id</string>
-						<string key="rockMusicButtonPressed:">id</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="actionInfosByName">
-						<object class="IBActionInfo" key="badRomanceButtonPressed:">
-							<string key="name">badRomanceButtonPressed:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="closeButtonPressed:">
-							<string key="name">closeButtonPressed:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="collapseButtonPressed:">
-							<string key="name">collapseButtonPressed:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="expandButtonPressed:">
-							<string key="name">expandButtonPressed:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="playPauseButtonPressed:">
-							<string key="name">playPauseButtonPressed:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-						<object class="IBActionInfo" key="rockMusicButtonPressed:">
-							<string key="name">rockMusicButtonPressed:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="collapsedWidgetView">AGHWidgetBackgroundView</string>
-						<string key="currentExpandedView">AGHWidgetBackgroundView</string>
-						<string key="musicCategoriesView">AGHWidgetBackgroundView</string>
-						<string key="rockMusicView">AGHWidgetBackgroundView</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="collapsedWidgetView">
-							<string key="name">collapsedWidgetView</string>
-							<string key="candidateClassName">AGHWidgetBackgroundView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="currentExpandedView">
-							<string key="name">currentExpandedView</string>
-							<string key="candidateClassName">AGHWidgetBackgroundView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="musicCategoriesView">
-							<string key="name">musicCategoriesView</string>
-							<string key="candidateClassName">AGHWidgetBackgroundView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="rockMusicView">
-							<string key="name">rockMusicView</string>
-							<string key="candidateClassName">AGHWidgetBackgroundView</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/AGHMusicWidgetViewController.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">AGHWidgetBackgroundView</string>
-					<string key="superclassName">NSView</string>
-					<object class="NSMutableDictionary" key="outlets">
-						<string key="NS.key.0">delegate</string>
-						<string key="NS.object.0">id</string>
-					</object>
-					<object class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<string key="NS.key.0">delegate</string>
-						<object class="IBToOneOutletInfo" key="NS.object.0">
-							<string key="name">delegate</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</object>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/AGHWidgetBackgroundView.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">AGHWidgetViewController</string>
-					<string key="superclassName">NSViewController</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/AGHWidgetViewController.h</string>
-					</object>
-				</object>
-				<object class="IBPartialClassDescription">
-					<string key="className">NSLayoutConstraint</string>
-					<string key="superclassName">NSObject</string>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/NSLayoutConstraint.h</string>
-					</object>
-				</object>
-			</array>
-		</object>
+		<object class="IBClassDescriber" key="IBDocument.Classes"/>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaFramework</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDependencies">

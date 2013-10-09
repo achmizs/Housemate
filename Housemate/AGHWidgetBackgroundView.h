@@ -19,6 +19,7 @@
 @interface AGHWidgetBackgroundView : NSView
 
 @property NSInteger tag;
+@property (nonatomic, strong) NSString* name;
 
 @property (nonatomic, weak) IBOutlet id <AGHWidgetBackgroundViewDelegate> delegate;
 

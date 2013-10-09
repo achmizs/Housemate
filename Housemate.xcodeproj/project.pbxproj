@@ -12,13 +12,11 @@
 		86AB32A317FC00DB00672553 /* home_screen_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86AB32A217FC00DB00672553 /* home_screen_background.jpg */; };
 		86AB32A817FC02EA00672553 /* kitchen_screen_background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86AB32A717FC02EA00672553 /* kitchen_screen_background.jpg */; };
 		86AB32B217FC070900672553 /* recipe_widget_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AB32AE17FC070900672553 /* recipe_widget_1.png */; };
-		86AB32B317FC070900672553 /* recipe_card_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AB32AF17FC070900672553 /* recipe_card_1.png */; };
 		86AB32B917FCBBE900672553 /* media_screen_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AB32B817FCBBE900672553 /* media_screen_background.png */; };
 		86AB32BD17FCBC0900672553 /* music_widget_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AB32BA17FCBC0900672553 /* music_widget_2.png */; };
 		86AB32BE17FCBC0900672553 /* music_widget_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AB32BB17FCBC0900672553 /* music_widget_1.png */; };
 		86AB32BF17FCBC0900672553 /* music_widget_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AB32BC17FCBC0900672553 /* music_widget_3.png */; };
 		86AB32C117FCBCE900672553 /* recipe_widget_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AB32C017FCBCE900672553 /* recipe_widget_2.png */; };
-		86AB32C317FCBE4E00672553 /* recipe_widget_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AB32C217FCBE4E00672553 /* recipe_widget_3.png */; };
 		86AB32CC17FCBF2C00672553 /* pizza1.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AB32C517FCBF2C00672553 /* pizza1.png */; };
 		86AB32CD17FCBF2C00672553 /* pizza2.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AB32C617FCBF2C00672553 /* pizza2.png */; };
 		86AB32CE17FCBF2C00672553 /* pizza3.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AB32C717FCBF2C00672553 /* pizza3.png */; };
@@ -28,6 +26,36 @@
 		86AB32D217FCBF2C00672553 /* pizza7.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AB32CB17FCBF2C00672553 /* pizza7.png */; };
 		86AB32D517FD26D800672553 /* AGHScreenBackgroundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 86AB32D417FD26D700672553 /* AGHScreenBackgroundView.m */; };
 		86AB32DA17FD4EB700672553 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86AB32D917FD4EB700672553 /* AVFoundation.framework */; };
+		86AE96F01804A56B00881913 /* recipe_widget_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AE96EF1804A56B00881913 /* recipe_widget_3.png */; };
+		86AE96F51804A76200881913 /* media_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AE96F41804A76200881913 /* media_button.png */; };
+		86AE96F71804A7AF00881913 /* widget_drawer.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AE96F61804A7AF00881913 /* widget_drawer.png */; };
+		86AE96FB1804A8DF00881913 /* video_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AE96F81804A8DF00881913 /* video_button.png */; };
+		86AE96FC1804A8DF00881913 /* timer_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AE96F91804A8DF00881913 /* timer_button.png */; };
+		86AE96FD1804A8DF00881913 /* recipe_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AE96FA1804A8DF00881913 /* recipe_button.png */; };
+		86AE96FF1804A9CC00881913 /* home_corner_button.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AE96FE1804A9CC00881913 /* home_corner_button.png */; };
+		86AE97081804AA5D00881913 /* Cutting board fade.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86AE97011804AA5D00881913 /* Cutting board fade.jpg */; };
+		86AE97091804AA5D00881913 /* Cutting board regular.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86AE97021804AA5D00881913 /* Cutting board regular.jpg */; };
+		86AE970A1804AA5D00881913 /* Cutting board texture.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86AE97031804AA5D00881913 /* Cutting board texture.jpg */; };
+		86AE970B1804AA5D00881913 /* Cutting board with corner.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86AE97041804AA5D00881913 /* Cutting board with corner.jpg */; };
+		86AE970C1804AA5D00881913 /* Cutting board.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86AE97051804AA5D00881913 /* Cutting board.jpg */; };
+		86AE970D1804AA5D00881913 /* Marble grey.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86AE97061804AA5D00881913 /* Marble grey.jpg */; };
+		86AE970E1804AA5D00881913 /* Marble white.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 86AE97071804AA5D00881913 /* Marble white.jpg */; };
+		86AE97101804AD7800881913 /* recipe_card_0.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AE970F1804AD7700881913 /* recipe_card_0.png */; };
+		86AE97121804AEB100881913 /* recipe_card_0_full.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AE97111804AEB100881913 /* recipe_card_0_full.png */; };
+		86AE977C1804F60300881913 /* recipe_card_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AE97751804F60300881913 /* recipe_card_1.png */; };
+		86AE977D1804F60300881913 /* recipe_card_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AE97761804F60300881913 /* recipe_card_2.png */; };
+		86AE977E1804F60300881913 /* recipe_card_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AE97771804F60300881913 /* recipe_card_3.png */; };
+		86AE977F1804F60300881913 /* recipe_card_4.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AE97781804F60300881913 /* recipe_card_4.png */; };
+		86AE97801804F60300881913 /* recipe_card_5.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AE97791804F60300881913 /* recipe_card_5.png */; };
+		86AE97811804F60300881913 /* recipe_card_6.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AE977A1804F60300881913 /* recipe_card_6.png */; };
+		86AE97821804F60300881913 /* recipe_card_7.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AE977B1804F60300881913 /* recipe_card_7.png */; };
+		86AE978A1805066A00881913 /* recipe_card_1_full.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AE97831805066700881913 /* recipe_card_1_full.png */; };
+		86AE978B1805066A00881913 /* recipe_card_2_full.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AE97841805066700881913 /* recipe_card_2_full.png */; };
+		86AE978C1805066A00881913 /* recipe_card_3_full.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AE97851805066800881913 /* recipe_card_3_full.png */; };
+		86AE978D1805066A00881913 /* recipe_card_4_full.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AE97861805066800881913 /* recipe_card_4_full.png */; };
+		86AE978E1805066A00881913 /* recipe_card_5_full.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AE97871805066900881913 /* recipe_card_5_full.png */; };
+		86AE978F1805066A00881913 /* recipe_card_6_full.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AE97881805066900881913 /* recipe_card_6_full.png */; };
+		86AE97901805066A00881913 /* recipe_card_7_full.png in Resources */ = {isa = PBXBuildFile; fileRef = 86AE97891805066900881913 /* recipe_card_7_full.png */; };
 		86B12D6517F68859001922F6 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 86B12D6417F68859001922F6 /* Cocoa.framework */; };
 		86B12D6F17F68859001922F6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 86B12D6D17F68859001922F6 /* InfoPlist.strings */; };
 		86B12D7117F68859001922F6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B12D7017F68859001922F6 /* main.m */; };
@@ -56,13 +84,11 @@
 		86AB32A217FC00DB00672553 /* home_screen_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = home_screen_background.jpg; sourceTree = "<group>"; };
 		86AB32A717FC02EA00672553 /* kitchen_screen_background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kitchen_screen_background.jpg; sourceTree = "<group>"; };
 		86AB32AE17FC070900672553 /* recipe_widget_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_widget_1.png; sourceTree = "<group>"; };
-		86AB32AF17FC070900672553 /* recipe_card_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_card_1.png; sourceTree = "<group>"; };
 		86AB32B817FCBBE900672553 /* media_screen_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = media_screen_background.png; sourceTree = "<group>"; };
 		86AB32BA17FCBC0900672553 /* music_widget_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music_widget_2.png; sourceTree = "<group>"; };
 		86AB32BB17FCBC0900672553 /* music_widget_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music_widget_1.png; sourceTree = "<group>"; };
 		86AB32BC17FCBC0900672553 /* music_widget_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music_widget_3.png; sourceTree = "<group>"; };
 		86AB32C017FCBCE900672553 /* recipe_widget_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_widget_2.png; sourceTree = "<group>"; };
-		86AB32C217FCBE4E00672553 /* recipe_widget_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_widget_3.png; sourceTree = "<group>"; };
 		86AB32C517FCBF2C00672553 /* pizza1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pizza1.png; sourceTree = "<group>"; };
 		86AB32C617FCBF2C00672553 /* pizza2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pizza2.png; sourceTree = "<group>"; };
 		86AB32C717FCBF2C00672553 /* pizza3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pizza3.png; sourceTree = "<group>"; };
@@ -73,6 +99,36 @@
 		86AB32D317FD26D700672553 /* AGHScreenBackgroundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGHScreenBackgroundView.h; sourceTree = "<group>"; };
 		86AB32D417FD26D700672553 /* AGHScreenBackgroundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGHScreenBackgroundView.m; sourceTree = "<group>"; };
 		86AB32D917FD4EB700672553 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		86AE96EF1804A56B00881913 /* recipe_widget_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_widget_3.png; sourceTree = "<group>"; };
+		86AE96F41804A76200881913 /* media_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = media_button.png; sourceTree = "<group>"; };
+		86AE96F61804A7AF00881913 /* widget_drawer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = widget_drawer.png; sourceTree = "<group>"; };
+		86AE96F81804A8DF00881913 /* video_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = video_button.png; sourceTree = "<group>"; };
+		86AE96F91804A8DF00881913 /* timer_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = timer_button.png; sourceTree = "<group>"; };
+		86AE96FA1804A8DF00881913 /* recipe_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_button.png; sourceTree = "<group>"; };
+		86AE96FE1804A9CC00881913 /* home_corner_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home_corner_button.png; sourceTree = "<group>"; };
+		86AE97011804AA5D00881913 /* Cutting board fade.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cutting board fade.jpg"; sourceTree = "<group>"; };
+		86AE97021804AA5D00881913 /* Cutting board regular.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cutting board regular.jpg"; sourceTree = "<group>"; };
+		86AE97031804AA5D00881913 /* Cutting board texture.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cutting board texture.jpg"; sourceTree = "<group>"; };
+		86AE97041804AA5D00881913 /* Cutting board with corner.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cutting board with corner.jpg"; sourceTree = "<group>"; };
+		86AE97051804AA5D00881913 /* Cutting board.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Cutting board.jpg"; sourceTree = "<group>"; };
+		86AE97061804AA5D00881913 /* Marble grey.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Marble grey.jpg"; sourceTree = "<group>"; };
+		86AE97071804AA5D00881913 /* Marble white.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Marble white.jpg"; sourceTree = "<group>"; };
+		86AE970F1804AD7700881913 /* recipe_card_0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_card_0.png; sourceTree = "<group>"; };
+		86AE97111804AEB100881913 /* recipe_card_0_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_card_0_full.png; sourceTree = "<group>"; };
+		86AE97751804F60300881913 /* recipe_card_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_card_1.png; sourceTree = "<group>"; };
+		86AE97761804F60300881913 /* recipe_card_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_card_2.png; sourceTree = "<group>"; };
+		86AE97771804F60300881913 /* recipe_card_3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_card_3.png; sourceTree = "<group>"; };
+		86AE97781804F60300881913 /* recipe_card_4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_card_4.png; sourceTree = "<group>"; };
+		86AE97791804F60300881913 /* recipe_card_5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_card_5.png; sourceTree = "<group>"; };
+		86AE977A1804F60300881913 /* recipe_card_6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_card_6.png; sourceTree = "<group>"; };
+		86AE977B1804F60300881913 /* recipe_card_7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_card_7.png; sourceTree = "<group>"; };
+		86AE97831805066700881913 /* recipe_card_1_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_card_1_full.png; sourceTree = "<group>"; };
+		86AE97841805066700881913 /* recipe_card_2_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_card_2_full.png; sourceTree = "<group>"; };
+		86AE97851805066800881913 /* recipe_card_3_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_card_3_full.png; sourceTree = "<group>"; };
+		86AE97861805066800881913 /* recipe_card_4_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_card_4_full.png; sourceTree = "<group>"; };
+		86AE97871805066900881913 /* recipe_card_5_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_card_5_full.png; sourceTree = "<group>"; };
+		86AE97881805066900881913 /* recipe_card_6_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_card_6_full.png; sourceTree = "<group>"; };
+		86AE97891805066900881913 /* recipe_card_7_full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = recipe_card_7_full.png; sourceTree = "<group>"; };
 		86B12D6117F68859001922F6 /* Housemate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Housemate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86B12D6417F68859001922F6 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		86B12D6717F68859001922F6 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -148,7 +204,11 @@
 		86AB32A617FC02A200672553 /* Kitchen Screen */ = {
 			isa = PBXGroup;
 			children = (
+				86AE97001804AA4D00881913 /* Textured Backgrounds */,
 				86AB32A717FC02EA00672553 /* kitchen_screen_background.jpg */,
+				86AE96F81804A8DF00881913 /* video_button.png */,
+				86AE96F91804A8DF00881913 /* timer_button.png */,
+				86AE96FA1804A8DF00881913 /* recipe_button.png */,
 			);
 			name = "Kitchen Screen";
 			sourceTree = "<group>";
@@ -165,10 +225,12 @@
 		86AB32AA17FC041B00672553 /* Recipe Widget Graphics */ = {
 			isa = PBXGroup;
 			children = (
-				86AB32C017FCBCE900672553 /* recipe_widget_2.png */,
 				86AB32AE17FC070900672553 /* recipe_widget_1.png */,
-				86AB32C217FCBE4E00672553 /* recipe_widget_3.png */,
-				86AB32AF17FC070900672553 /* recipe_card_1.png */,
+				86AB32C017FCBCE900672553 /* recipe_widget_2.png */,
+				86AE96EF1804A56B00881913 /* recipe_widget_3.png */,
+				86AE970F1804AD7700881913 /* recipe_card_0.png */,
+				86AE97111804AEB100881913 /* recipe_card_0_full.png */,
+				86AE97741804F5E900881913 /* Step by Step */,
 				86AB32C417FCBF1800672553 /* Pizza Thumbnails */,
 			);
 			name = "Recipe Widget Graphics";
@@ -204,6 +266,51 @@
 				86FB267817FD53A900D3DF68 /* bad_romance.mp3 */,
 			);
 			name = "Sounds & Musics";
+			sourceTree = "<group>";
+		};
+		86AE96F11804A72800881913 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				86AE96F61804A7AF00881913 /* widget_drawer.png */,
+				86AE96F41804A76200881913 /* media_button.png */,
+				86AE96FE1804A9CC00881913 /* home_corner_button.png */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		86AE97001804AA4D00881913 /* Textured Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				86AE97011804AA5D00881913 /* Cutting board fade.jpg */,
+				86AE97021804AA5D00881913 /* Cutting board regular.jpg */,
+				86AE97031804AA5D00881913 /* Cutting board texture.jpg */,
+				86AE97041804AA5D00881913 /* Cutting board with corner.jpg */,
+				86AE97051804AA5D00881913 /* Cutting board.jpg */,
+				86AE97061804AA5D00881913 /* Marble grey.jpg */,
+				86AE97071804AA5D00881913 /* Marble white.jpg */,
+			);
+			name = "Textured Backgrounds";
+			sourceTree = "<group>";
+		};
+		86AE97741804F5E900881913 /* Step by Step */ = {
+			isa = PBXGroup;
+			children = (
+				86AE97751804F60300881913 /* recipe_card_1.png */,
+				86AE97761804F60300881913 /* recipe_card_2.png */,
+				86AE97771804F60300881913 /* recipe_card_3.png */,
+				86AE97781804F60300881913 /* recipe_card_4.png */,
+				86AE97791804F60300881913 /* recipe_card_5.png */,
+				86AE977A1804F60300881913 /* recipe_card_6.png */,
+				86AE977B1804F60300881913 /* recipe_card_7.png */,
+				86AE97831805066700881913 /* recipe_card_1_full.png */,
+				86AE97841805066700881913 /* recipe_card_2_full.png */,
+				86AE97851805066800881913 /* recipe_card_3_full.png */,
+				86AE97861805066800881913 /* recipe_card_4_full.png */,
+				86AE97871805066900881913 /* recipe_card_5_full.png */,
+				86AE97881805066900881913 /* recipe_card_6_full.png */,
+				86AE97891805066900881913 /* recipe_card_7_full.png */,
+			);
+			name = "Step by Step";
 			sourceTree = "<group>";
 		};
 		86B12D5817F68859001922F6 = {
@@ -282,6 +389,7 @@
 		86B12DD917F754EC001922F6 /* UI Graphics */ = {
 			isa = PBXGroup;
 			children = (
+				86AE96F11804A72800881913 /* General */,
 				86AB32A117FC00CA00672553 /* Home Screen */,
 				86AB32A517FC029800672553 /* Media Screen */,
 				86AB32A617FC02A200672553 /* Kitchen Screen */,
@@ -383,13 +491,11 @@
 				86AB32A317FC00DB00672553 /* home_screen_background.jpg in Resources */,
 				86AB32A817FC02EA00672553 /* kitchen_screen_background.jpg in Resources */,
 				86AB32B217FC070900672553 /* recipe_widget_1.png in Resources */,
-				86AB32B317FC070900672553 /* recipe_card_1.png in Resources */,
 				86AB32B917FCBBE900672553 /* media_screen_background.png in Resources */,
 				86AB32BD17FCBC0900672553 /* music_widget_2.png in Resources */,
 				86AB32BE17FCBC0900672553 /* music_widget_1.png in Resources */,
 				86AB32BF17FCBC0900672553 /* music_widget_3.png in Resources */,
 				86AB32C117FCBCE900672553 /* recipe_widget_2.png in Resources */,
-				86AB32C317FCBE4E00672553 /* recipe_widget_3.png in Resources */,
 				86AB32CC17FCBF2C00672553 /* pizza1.png in Resources */,
 				86AB32CD17FCBF2C00672553 /* pizza2.png in Resources */,
 				86AB32CE17FCBF2C00672553 /* pizza3.png in Resources */,
@@ -398,6 +504,36 @@
 				86AB32D117FCBF2C00672553 /* pizza6.png in Resources */,
 				86AB32D217FCBF2C00672553 /* pizza7.png in Resources */,
 				86FB267917FD53A900D3DF68 /* bad_romance.mp3 in Resources */,
+				86AE96F01804A56B00881913 /* recipe_widget_3.png in Resources */,
+				86AE96F51804A76200881913 /* media_button.png in Resources */,
+				86AE96F71804A7AF00881913 /* widget_drawer.png in Resources */,
+				86AE96FB1804A8DF00881913 /* video_button.png in Resources */,
+				86AE96FC1804A8DF00881913 /* timer_button.png in Resources */,
+				86AE96FD1804A8DF00881913 /* recipe_button.png in Resources */,
+				86AE96FF1804A9CC00881913 /* home_corner_button.png in Resources */,
+				86AE97081804AA5D00881913 /* Cutting board fade.jpg in Resources */,
+				86AE97091804AA5D00881913 /* Cutting board regular.jpg in Resources */,
+				86AE970A1804AA5D00881913 /* Cutting board texture.jpg in Resources */,
+				86AE970B1804AA5D00881913 /* Cutting board with corner.jpg in Resources */,
+				86AE970C1804AA5D00881913 /* Cutting board.jpg in Resources */,
+				86AE970D1804AA5D00881913 /* Marble grey.jpg in Resources */,
+				86AE970E1804AA5D00881913 /* Marble white.jpg in Resources */,
+				86AE97101804AD7800881913 /* recipe_card_0.png in Resources */,
+				86AE97121804AEB100881913 /* recipe_card_0_full.png in Resources */,
+				86AE977C1804F60300881913 /* recipe_card_1.png in Resources */,
+				86AE977D1804F60300881913 /* recipe_card_2.png in Resources */,
+				86AE977E1804F60300881913 /* recipe_card_3.png in Resources */,
+				86AE977F1804F60300881913 /* recipe_card_4.png in Resources */,
+				86AE97801804F60300881913 /* recipe_card_5.png in Resources */,
+				86AE97811804F60300881913 /* recipe_card_6.png in Resources */,
+				86AE97821804F60300881913 /* recipe_card_7.png in Resources */,
+				86AE978A1805066A00881913 /* recipe_card_1_full.png in Resources */,
+				86AE978B1805066A00881913 /* recipe_card_2_full.png in Resources */,
+				86AE978C1805066A00881913 /* recipe_card_3_full.png in Resources */,
+				86AE978D1805066A00881913 /* recipe_card_4_full.png in Resources */,
+				86AE978E1805066A00881913 /* recipe_card_5_full.png in Resources */,
+				86AE978F1805066A00881913 /* recipe_card_6_full.png in Resources */,
+				86AE97901805066A00881913 /* recipe_card_7_full.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
