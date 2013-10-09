@@ -13,6 +13,9 @@
 	NSDictionary* recipeWidgetViews;
 	NSDictionary* recipeFullScreenViews;
 	
+	NSDictionary* forwardSteps;
+	NSDictionary* backSteps;
+	
 	BOOL isFullScreen;
 	BOOL isInStepView;
 	CGRect nonFullScreenFrame;
@@ -52,6 +55,7 @@
 - (IBAction)modeChangeButtonPressed:(id)sender;
 
 - (IBAction)nextStepButtonPressed:(id)sender;
+- (IBAction)previousStepButtonPressed:(id)sender;
 
 - (IBAction)widgetCloseButtonPressed:(id)sender;
 - (IBAction)widgetZoomButtonPressed:(id)sender;
@@ -108,6 +112,9 @@
 	   self.pizzaRecipeStep6FullScreenView.name: self.pizzaRecipeStep6FullScreenView,
 	   self.pizzaRecipeStep7FullScreenView.name: self.pizzaRecipeStep7FullScreenView
 							};
+	
+	forwardSteps = @{@"step_1" : @"step_2", @"step_2" : @"step_3", @"step_3" : @"step_4", @"step_4" : @"step_5", @"step_5" : @"step_6", @"step_6" : @"step_7"};
+	backSteps = @{@"step_7" : @"step_6", @"step_6" : @"step_5", @"step_5" : @"step_4", @"step_4" : @"step_3", @"step_3" : @"step_2", @"step_2" : @"step_1"};
 }
 
 #pragma mark - Action methods
@@ -125,6 +132,7 @@
 - (IBAction)specificPizzaButtonPressed:(id)sender
 {
 	[self showFruitPizzaRecipeScreen];
+	isInStepView = NO;
 }
 
 - (IBAction)backToWidgetRootButtonPressed:(id)sender
@@ -147,7 +155,14 @@
 	[self setStepMode:(!isInStepView)];
 }
 
-- (IBAction)nextStepButtonPressed:(id)sender {
+- (IBAction)nextStepButtonPressed:(id)sender
+{
+	[self showNextStep];
+}
+
+- (IBAction)previousStepButtonPressed:(id)sender
+{
+	[self showPreviousStep];
 }
 
 - (IBAction)widgetCloseButtonPressed:(id)sender
@@ -199,6 +214,46 @@
 	[self.view.superview addSubview:self.pizzaRecipeCardView];
 	[self.view removeFromSuperview];
 	self.view = self.pizzaRecipeCardView;
+}
+
+-(void)showNextStep
+{
+	AGHWidgetBackgroundView* currentView = (AGHWidgetBackgroundView*) self.view;
+	AGHWidgetBackgroundView* newView;
+	
+	if(isFullScreen)
+	{
+		newView = recipeFullScreenViews[forwardSteps[currentView.name]];
+	}
+	else
+	{
+		newView = recipeWidgetViews[forwardSteps[currentView.name]];
+	}
+	
+	newView.frame = self.view.frame;
+	[self.view.superview addSubview:newView];
+	[self.view removeFromSuperview];
+	self.view = newView;
+}
+
+-(void)showPreviousStep
+{
+	AGHWidgetBackgroundView* currentView = (AGHWidgetBackgroundView*) self.view;
+	AGHWidgetBackgroundView* newView;
+	
+	if(isFullScreen)
+	{
+		newView = recipeFullScreenViews[backSteps[currentView.name]];
+	}
+	else
+	{
+		newView = recipeWidgetViews[backSteps[currentView.name]];
+	}
+	
+	newView.frame = self.view.frame;
+	[self.view.superview addSubview:newView];
+	[self.view removeFromSuperview];
+	self.view = newView;
 }
 
 -(void)setStepMode:(BOOL)stepView
